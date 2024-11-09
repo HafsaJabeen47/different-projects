@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>exampleCenterLogo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-439.000000, -3483.000000)" fill="#FFFFFF">
+            <g id="Section" sketch:type="MSLayerGroup" transform="translate(108.000000, 3134.000000)">
+                <g id="Group-4" transform="translate(0.000000, 198.000000)" sketch:type="MSShapeGroup">
+                    <g id="Group-12" transform="translate(269.000000, 151.000000)">
+                        <path d="M158,48 C158,74.4 136.4,96 110,96 C83.6,96 62,74.4 62,48 C62,21.6 83.6,0 110,0 C136.4,0 158,21.6 158,48 Z M124.577613,41.9437741 C124.577613,41.9437741 120.353986,54.4309296 120.029017,55.4786241 C119.913043,54.4309296 116.822293,32 116.822293,32 C109.629017,32 105.78212,36.8194868 103.753686,41.9380188 C103.753686,41.9380188 98.6181425,54.4626989 98.2008827,55.5115445 C98.1771997,54.5283093 97.4115316,42.0678584 97.4115316,42.0678584 C96.9774251,35.8058636 90.9126303,32.016345 86,32.016345 L91.9090243,65.9988489 C99.4553479,65.976058 103.49537,61.1657797 105.627082,56.0550748 C105.627082,56.0550748 110.145403,45.0065136 110.331693,44.5041912 C110.378082,44.9839529 113.579923,66 113.579923,66 C121.133083,66 125.207775,61.4952129 127.401258,56.5693683 L138,32.016345 C130.534003,32.016345 126.605315,36.8224795 124.577613,41.9437741 Z" id="exampleCenterLogo"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

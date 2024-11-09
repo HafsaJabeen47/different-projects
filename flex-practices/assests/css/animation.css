@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #89979B;
+}
+/* 0 to 100% normal-direction one*/
+h1{
+    text-align: center;
+}
+#one{
+    width: 1150px;
+    height: 250px;
+    border: 3px solid black;
+    margin: 20px auto;
+    position: relative;
+}
+.one{
+    width: 200px;
+    height: 200px;
+    background-color: seagreen;
+    border-radius: 20px;
+    position: absolute;
+    animation: one-normal 3s linear 1s infinite;
+}
+@keyframes one-normal{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    50%{
+        background-color: #e8600a;
+    }
+    100%{
+        top: 0;
+        left: 950px;
+        background-color: #146396;
+    }
+}
+/* 100% to 0 reverse-direction two*/
+#two{
+    width: 1150px;
+    height: 250px;
+    border: 3px solid black;
+    margin: 20px auto;
+    position: relative;
+}
+.two{
+    width: 200px;
+    height: 200px;
+    background-color: seagreen;
+    border-radius: 20px;
+    position: absolute;
+    animation: two-reverse 3s linear 1s infinite reverse;
+}
+@keyframes two-reverse{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    50%{
+        background-color: #d29922;
+    }
+    100%{
+        top: 0;
+        left: 950px;
+    }
+}
+/* 0 to 100% alternate-direction three*/
+#three{
+    width: 1150px;
+    height: 250px;
+    border: 3px solid black;
+    margin: 20px auto;
+    position: relative;
+}
+.three{
+    width: 200px;
+    height: 200px;
+    background-color: seagreen;
+    border-radius: 20px;
+    position: absolute;
+    animation: three-alternate 3s linear 1s infinite alternate;
+}
+@keyframes three-alternate{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        background-color: pink;
+    }
+    75%{
+        background-color: #af50f5;
+    }
+    100%{
+        top: 0;
+        left: 950px;
+    }
+}
+/* 0 to 100% divided in five points four*/
+#four{
+    width: 1200px;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 3px solid black; */
+    margin: 20px auto;
+    position: relative;
+}
+.four-left, .four-right{
+    width: 580px;
+    height: 500px;
+    border: 3px solid black;
+    position: relative;
+}
+/* four-left-box */
+.four-left-box{
+    width: 170px;
+    height: 170px;
+    background-color: seagreen;
+    border-radius: 20px;
+    position: absolute;
+    animation: four-left-box 5s linear 1s infinite;
+}
+@keyframes four-left-box{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 320px;
+        left: 0;
+        background-color: #d29922;
+    }
+    50%{
+        top: 320px;
+        left: 350px;
+        background-color: #EA3F74;
+    }
+    75%{
+        top: 0px;
+        left: 350px;
+        background-color: #0db7eb;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+/* four-right-box */
+.four-right-box{
+    width: 170px;
+    height: 170px;
+    background-color: seagreen;
+    border-radius: 20px;
+    position: absolute;
+    animation: four-right-box 5s linear 1s infinite reverse;
+}
+@keyframes four-right-box{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 320px;
+        left: 0;
+        background-color: #d29922;
+    }
+    50%{
+        top: 320px;
+        left: 350px;
+        background-color: #EA3F74;
+    }
+    75%{
+        top: 0px;
+        left: 350px;
+        background-color: #0db7eb;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+#five{
+    width: 1000px;
+    height: 400px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 20px auto 20px;
+    border: 3px solid black;
+    position: relative;
+}
+.five-text-animation p{
+    background-color: #777aaf;
+}
+.five-text-animation{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 3rem;
+    position: absolute;
+    animation: text-animation 15s linear 1s infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes text-animation{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    16%{
+        top: 0;
+        left: 150px;
+    }
+    32%{
+        top: 200px;
+        left: 150px;
+    }
+    48%{
+        top: 200px;
+        left: 355px;
+    }
+    64%{
+        top: 200px;
+        left: 0px;
+    }
+    80%{
+        top: 340px;
+        left: 0;
+    }
+    100%{
+        top: 340px;
+        left: 355px;
+    }
+}
+/* slider */
+#six{
+    width: 800px;
+    height: 200px;
+    margin: 10px auto 10px;
+    border: 2px solid black;
+    font-size: 2rem;
+    position: relative;
+    
+}
+.slider p{
+    width: 250px;
+    text-align: center;
+    background-color: #976b79;
+    border-radius: 10px;
+    position: absolute;
+    animation: slider 3s ease-in-out 1s infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes slider{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    50%{
+        top: 0;
+        left: 530px;
+    }
+    75%{
+        top: 0;
+        left: 530px;
+    }
+    100%{
+        top: 0;
+        left: 0px;
+    }
+}

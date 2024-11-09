@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* navigation */
+.navbar::before{
+    background: url("./../restaurant-imgs/hero-bg.jpg") no-repeat center center/cover;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 200px;
+}
+.logo{
+    font-family: "dancing script", cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+}
+.navbar ul{
+    display: flex;
+    gap: 40px;
+}
+.navbar ul li a{
+    font-family: "open sans", sans-serif;
+    color: #fff;
+    font: 1rem;
+    text-transform: uppercase;
+}
+.nav-btn{
+    width: 160px;
+    height: 42px;
+    background-color: #ffbe33;
+    border-radius: 30px;
+    border: none;
+    text-transform: capitalize;
+    font-family: "open sans", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+}
+.navbar ul li a:hover,
+.navbar ul li a.active{
+    color: #ffbe33;
+}
+.navbar .menu-btn i{
+    color: #fff;
+    font-size: 2.1rem;
+    cursor: pointer;
+    display: none;
+}
+#click{
+    display: none;
+}
+
+
+/* hero-conent-section */
+.hero-content-section{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 564px;
+    border:2px solid red;
+    color: #fff;
+    margin-top: 16px;
+}
+.hero-content-section h1{
+    font-family: "dancing script", cursive;
+    font-size: 3.6rem;
+    text-transform: capitalize;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.hero-content-section p{
+    font-family: "open sans", sans-serif;
+    font-size: 0.9rem;
+    margin-top: 16px;
+    margin-left: 40px;
+    line-height: 1.5;
+}
+.hero-content-section button{
+    width: 172px;
+    height: 44px;
+    margin: 25px 0 0 40px;
+    background-color: #ffbe33;
+    border-radius: 30px;
+    border: none;
+    font-family: "open sans", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/* body-content-section */
+.tasty-thursday-box{
+    width: 510px;
+    height: 215px;
+    background-color: #222831;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (max-width: 700px){
+    /* .navbar::before{
+        height: 220%;
+    } */
+    .navbar::before{
+        height: 150%;
+    }
+    .navbar{
+        padding: 45px 50px;
+    }
+    .navbar ul{
+        display: none;
+    }
+    /* .navbar ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 100px;
+        right: 8px;
+        gap: 20px;
+        text-align: center;
+    } */
+    /* .nav-btn{
+        display: block;
+        position: fixed;
+        top: 280px;
+        right: 225px;
+    } */
+    .nav-btn{
+        display: none;
+    }
+    .navbar .menu-btn i{
+        display: block;
+    }
+    /* #click:checked ~ ul{
+        display: none;
+    }
+    #click:checked ~ .menu-btn i:before{
+        content: "\f00d";
+    } */
+}
+@media screen and (min-width: 701px) and (max-width: 750px) {
+    .navbar{
+        padding: 45px 50px;
+    }
+}
+
+/* media queries for hero-content-section */
+@media screen and  (min-width:750px) and (max-width: 1200px){
+
+    .navbar{
+        padding: 0 40px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .hero-content-section{
+        /* height: 564px; */
+        width: 610px;
+        margin: 80px 0 0 158px;
+        
+    }
+}
+@media screen and (min-width: 700px){
+    .hero-content-section{
+        height: 464px;
+        width: 610px;
+        margin: 80px 0 0 158px;
+        
+    }
+}
+
+/* media queries for body-section */
+
+
+
+

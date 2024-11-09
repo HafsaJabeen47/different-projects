@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+.back-color-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #e8f5e9;
+    width: 100%;
+    height: 1500px;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.items-back-container{
+    display: flex;
+    padding: 32px 0;
+}
+.green-parent-box-one{
+    display: flex;
+    width: 100%;
+    max-width: 872px;
+    height: 205px;
+    background-color: #47b04b;
+    margin-top: -620px;
+    border-radius: 5px;
+    justify-content: center;
+    
+}
+.box-border{
+    border-left: 1px solid #63bc66;
+    
+}
+.box-one-child{
+    display: flex;
+    width: 280px;
+    height: 142px;
+    padding: 0 10px;
+    color: white;
+    gap: 12px;
+}
+.logo-section {
+    display: flex;
+    flex-direction: column;
+}
+.content-section {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.content-section p{
+    font-size: 14px;
+    font-family: 'Circular Book', sans-serif;
+    line-height: 1.5;
+}
+.box-one-child .img-section{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: #a4d7a5;
+    border-radius: 100%;
+    justify-content: center;
+}
+.box-one-child h3{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Circular Medium', sans-serif;
+}
+
+/* here is started green parent box two */
+
+.green-parent-box-two{
+    display: flex;
+    width: 100%;
+    max-width: 872px;
+    height: 328px;
+    background-color: #47b04b;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+  
+}
+.items-back-container-two{
+    display: flex;
+}
+.box-left-border{
+    border-left: 1px solid #63bc66;
+}
+.box-two-child{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 255px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+}
+.image-section{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #a4d7a5;
+    border-radius: 50%;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.parent-two-content-section h4{
+    font-family: 'Circular Medium', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.parent-two-content-section p{
+    font-family: 'Circular Book', sans-serif;
+    font-size: 15px;
+    line-height: 1.4em;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* here is started green parent box three */
+
+.green-parent-box-three{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 872px;
+    height: 449px;
+    background-color: #47b04b;
+    border-radius: 5px;
+    padding: 0 40px;
+    
+}
+.three-items-back-container{
+    display: flex;
+}
+.box-three-child{
+    display: flex;
+    width: 792px;
+    height: 224px;
+    align-items: center;
+    gap: 25px;
+}
+.box-three-left-logo-container{
+    display: flex;
+    width: 160px;
+    height: 160px;
+    background-color: #a4d7a5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+/* .box-three-image-section img{
+    display: flex;
+    width: 160px;
+    height: 160px;
+    background-color: #a4d7a5;
+    border-radius: 50%;
+    justify-content: center; */
+    /* align-items: center; */
+/* } */
+.parent-three-content-section h3{
+    font-family: 'Circular Medium', sans-serif;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 8px;
+    
+}
+.parent-three-content-section p{
+    font-family: 'Circular Book', sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    color: white;
+}
+.three-box-top-border{
+    border-top: 1px solid #63bc66;
+}
+#reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* .row-reverse h3 p{
+    text-align: right;
+} */
+.row-reverse h3{
+    text-align: right;
+}
+.row-reverse p{
+    text-align: right;
+}

@@ -1,0 +1,88 @@
+@media screen and (max-width: 600px){
+    /* navbar */
+    .nav{
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    .nav ul{
+        width: 100%;
+        height: 100vh;
+        background-color: #30363d;
+        position: fixed;
+        top: 60px;
+        left: -100%;
+        display: block;
+        line-height: 50px;
+        text-align: center;
+        z-index: 1;
+        transition: all 0.7s ease;
+        padding-top: 20px;
+    }
+    #click:checked ~ .menu-btn i:before{
+        content: "\f00d";
+    }
+    #click:checked ~ ul{
+        left: 0;
+    }
+    .nav-icon{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav .menu-btn i{
+        display: block;
+    }
+    /* her0-section */
+    .bg-hero-section{
+        height: 700px;
+    }
+    .content-hero-section{
+        margin-left: 0px;
+        padding: 0 30px;
+        height: 464px;
+    }
+    /* body-content-section */
+    .body-content-section{
+        height: 595px;
+        flex-direction: column;
+    }
+    /* our-menu-section */
+    .our-menu-section{
+        height: 1800px;
+    }
+    .menu-box-product-details{
+        /* height: 1752px; */
+        gap: 15px;
+    }
+    .box-menu{
+        width: 240px;
+        height: 470px;
+    }
+    .box-menu-image{
+        width: 240px;
+    }
+    .box-menu-content{
+        width: 240px;
+    }
+    .box-menu-dollar{
+        width: 200px;
+    }
+    /* we are feane */
+    .we-are-feane{
+        height: 1240px;
+        padding: 0 0;
+        justify-content: flex-start;
+    }
+    .feane-left-right-parent{
+        /* height: 1200px; */
+        flex-direction: column-reverse;
+    }
+    .we-feane-left-image-container img{
+        width: 445px;
+    }
+    .we-feane-right-content-container{
+        /* justify-content: flex-start; */
+        height: 282px;
+    }
+}

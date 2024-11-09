@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="112px" height="88px" viewBox="0 0 112 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>sticky</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sticky" fill="#672CBD">
+            <path d="M0,4.00984669 C0,1.79526951 1.78186632,0 4.00263463,0 L107.997365,0 C110.207959,0 112,1.79771022 112,4.00984669 L112,83.9901533 C112,86.2047305 110.218134,88 107.997365,88 L4.00263463,88 C1.79204057,88 0,86.2022898 0,83.9901533 L0,4.00984669 Z M4,4.99850233 C4,4.44704472 4.44107707,4 4.99597396,4 L107.004026,4 C107.554087,4 108,4.44748943 108,4.99850233 L108,17 L4,17 L4,4.99850233 Z M4,71 L108,71 L108,83.0014977 C108,83.5529553 107.558923,84 107.004026,84 L4.99597396,84 C4.44591273,84 4,83.5525106 4,83.0014977 L4,71 Z M4,19 L108,19 L108,69 L4,69 L4,19 Z" id="Combined-Shape"></path>
+            <path d="M42,77 L54,77 L54,78 L42,78 L42,77 Z M26,77 L38,77 L38,78 L26,78 L26,77 Z M10,77 L22,77 L22,78 L10,78 L10,77 Z" id="Combined-Shape" opacity="0.6"></path>
+            <rect id="Rectangle-4" opacity="0.6" x="10" y="10" width="12" height="1"></rect>
+            <path d="M90,10 L102,10 L102,11 L90,11 L90,10 Z M74,10 L86,10 L86,11 L74,11 L74,10 Z" id="Combined-Shape" opacity="0.6"></path>
+            <path d="M10,29 L62,29 L62,30 L10,30 L10,29 Z M10,34 L62,34 L62,35 L10,35 L10,34 Z M10,39 L50.2264151,39 L50.2264151,40 L10,40 L10,39 Z" id="Combined-Shape" opacity="0.6"></path>
+        </g>
+    </g>
+</svg>

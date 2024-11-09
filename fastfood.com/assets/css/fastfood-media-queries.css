@@ -1,0 +1,150 @@
+/* extra small device for mobile (max-width: 600px) */
+body{
+    background-color: cadetblue;
+}
+/* navigation */
+@media screen and (max-width: 600px){
+    .nav{
+        justify-content: space-between;
+    }
+    .nav ul{
+        width: 100%;
+        max-width: 600px;
+        height: 100%;
+        max-height: 400px;
+        background-color: #30363d;
+        position: fixed;
+        top: 60px;
+        left: -100%;
+        display: block;
+        line-height: 50px;
+        text-align: center;
+        z-index: 1;
+        transition: all 0.7s ease;
+        padding-top: 20px;
+    }
+    #click:checked ~ .menu-btn i:before{
+        content: "\f00d";
+    }
+    #click:checked ~ ul{
+        left: 0;
+    }
+    .nav-icon{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav .menu-btn i{
+        display: block;
+    }
+    /* hero-section */
+    .bg-hero-section{
+        display: flex;
+        justify-content: center;
+    }
+    .content-hero-section{
+        margin-left: 0px;
+        max-width: 490px;
+        height: 450px;
+    }
+    .content-hero-section p{
+        font-size: 1.1rem;
+    }
+    .content-hero-section button{
+        font-size: 1.1rem;
+    }
+    /* body-content-section */
+    .body-content-section{
+        flex-direction: column;
+        min-height: 655px;
+    }
+    /* our-menu-section  */
+    .our-menu h2{
+        font-size: 3.5rem;
+    }
+    .menu-bar ul{
+        font-size: 1.3rem;
+    }
+    .box-menu{
+        width: 270px;
+        height: 488px;
+    }
+    .box-menu-image{
+        width: 270px;
+    }
+    #A-152-144{
+        width: 120px;
+        height: 120px;
+    }
+    #B-196-144{
+        width: 120px;
+        height: 120px;
+    }
+    #C-145-145{
+        width: 120px;
+        height: 120px;
+    }
+    #D-256-144{
+        width: 120px;
+        height: 120px;
+    }
+    #E-218-144{
+        width: 120px;
+        height: 120px;
+    }
+    #F-145-145{
+        width: 120px;
+        height: 120px;
+    }
+    #G-175-144{
+        width: 120px;
+        height: 120px;
+    }
+    #H-177-144{
+        width: 120px;
+        height: 120px;
+    }
+    #I-180-144{
+        width: 120px;
+        height: 120px;
+    }
+
+    .box-menu-content{
+        width: 270px;
+    }
+    .box-menu-dollar{
+        width: 200px;
+    }
+    .menu-product-details-button{
+        /* width: 600px; */
+    }
+    /* we are feane */
+    .we-are-feane{
+        min-height: 1115px;
+    }
+    .feane-left-right-parent{
+        flex-direction: column;
+    }
+    /* book-a-table */
+    .book-a-table{
+        height: 1200px;
+    }
+    .book-table-parent-container{
+        flex-direction: column;
+    }
+    /* customers feedback */
+    .customers-feedback{
+        /* height: 678px; */
+    }
+    .customers-reviews-parent-container{
+        flex-direction: column;
+    }
+    /* footer */
+    .footer-section{
+        height: 1257px;
+    }
+    .footer-detail-row{
+        flex-direction: column;
+    }
+}

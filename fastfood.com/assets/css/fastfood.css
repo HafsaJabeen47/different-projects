@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* nav-section */
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: #1C2126;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 100px;
+}
+.logo{
+    font-family: 'dancing script', cursive;
+    font-size: 2rem;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.nav ul{
+    display: flex;
+    gap: 40px;
+}
+.nav ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "open sans", sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.nav ul li a:hover,
+.nav ul li a.active{
+    color: #ffbe33;
+}
+.nav-icon{
+    display: flex;
+    color: #fff;
+    gap: 18px;
+    cursor: pointer;
+}
+.nav-icon i:hover{
+    color: #ffbe33;
+}
+.nav-btn button{
+    width: 155px;
+    height: 42px;
+    background-color: #ffbe33;
+    border-radius: 30px;
+    border: none;
+    text-transform: capitalize;
+    font-family: "open sans", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+.nav-btn button:hover{
+    background-color: #db9a0e;
+}
+.nav .menu-btn i{
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+    display: none;
+}
+#click{
+    display: none;
+}
+/* hero-section */
+.bg-hero-section{
+    width: 100%;
+    height: 100vh;
+    background: url("./../restaurant-imgs/hero-bg.jpg") no-repeat center top/cover;
+}
+.content-hero-section{
+    width: 100%;
+    max-width: 570px;
+    height: 364px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 25px;
+    margin-left: 180px;
+    position: relative;
+    animation: hero 1s linear 1s alternate;
+}
+@keyframes hero{
+    0%{left: 0;
+        top: 0;
+    }
+    100%{
+        left: -1000px;
+        top: 0;
+    }
+}
+.content-hero-section h1{
+    font-family: "dancing script", cursive;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    margin-top: 130px;
+
+}
+.content-hero-section p{
+    font-family: "open sans", sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+.content-hero-section button{
+    width: 172px;
+    height: 44px;
+    background-color: #ffbe33;
+    border-radius: 30px;
+    border: none;
+    text-transform: capitalize;
+    font-family: "open sans", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+.content-hero-section button:hover{
+    background-color: #db9a0e;
+}
+/* body-content-section */
+.body-content-section{
+    width: 100%;
+    height: 395px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.two-box-container{
+    display: flex;
+    align-items: center;
+    width: 555px;
+    height: 215px;
+    background-color: #222831;
+    border-radius: 6px;
+    border: 1px solid black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+}
+.two-box-image-container img{
+    display: flex;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    border: 5px solid #ffbe33;
+    /* transition: all 0.3s ease; */
+    cursor: pointer;
+}
+.two-box-content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    margin-left: 5px;
+}
+.two-box-content-container h5{
+    font-family: "dancing script", cursive;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+.two-box-content-container p{
+    font-family: "dancing script", cursive;
+    font-size: 1rem;
+    text-transform: capitalize;
+    /* margin-left: 8px; */
+}
+.two-box-content-container span{
+    font-family: "dancing script", cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.two-box-container button{
+    width: 172px;
+    height: 44px;
+    background-color: #ffbe33;
+    border: none;
+    border-radius: 45px;
+    font-family: "open sans", sans-serif;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+}
+.two-box-container button i{
+    margin-left: 10px;
+}
+.two-box-container button:hover{
+    background-color: #db9a0e;
+}
+
+/* our-menu-section */
+.our-menu-section{
+    width: 100%;
+    height: 1690px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-menu{
+    /* width: 1140px; */
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-menu h2{
+    font-family: "dancing script", cursive;
+    font-size: 2.5rem;
+    text-transform: capitalize; 
+}
+.menu-bar{
+    /* width: 1140px; */
+    height: 38px;
+    margin: 45px 0 20px;
+}
+.menu-bar ul{
+    display: flex;
+    justify-content: center;
+    font-family: "open sans", sans-serif;
+    text-transform: capitalize;
+    gap: 15px;
+}
+.menu-bar ul li a:hover,
+.menu-bar ul li a.active{
+    background-color: #222831;
+    color: #fff;
+}
+.menu-bar a{
+    color: #0c0c0c;
+    padding: 7px 20px;
+    border-radius: 25px;
+}
+.menu-product-details{
+    width: 1140px;
+    height: 1430px;
+}
+.menu-box-product-details{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    /* padding-left: 33px; */
+    
+}
+.box-menu{
+    width: 362px;
+    height: 418px;
+    border-radius: 18px;
+    background-color: #222831 ;
+    margin: 12px 0px;
+}
+.box-menu-image{
+    width: 362px;
+    height: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f2f3;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 50px;
+    overflow: hidden;
+    cursor: pointer;
+}
+/* .box-menu-image img{
+    width: 196px;
+    height: 144px;
+} */
+#A-152-144{
+    width: 152px;
+    height: 144px;
+}
+#B-196-144{
+    width: 196px;
+    height: 144px;
+}
+#C-145-145{
+    width: 145px;
+    height: 145px;
+}
+#D-256-144{
+    width: 256px;
+    height: 144px;
+}
+#E-218-144{
+    width: 218px;
+    height: 144px;
+}
+#F-145-145{
+    width: 145px;
+    height: 145px;
+}
+#G-175-144{
+    width: 175px;
+    height: 144px;
+}
+#H-177-144{
+    width: 177px;
+    height: 144px;
+}
+#I-180-144{
+    width: 180px;
+    height: 144px;
+}
+.box-menu-content{
+    width: 362px;
+    height: 203px;
+    font-family: "open sans", sans-serif;
+    color: #fff;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    padding: 25px;
+}
+.box-menu-content h5{
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.box-menu-content p{
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    margin-bottom: 16px;
+}
+.box-menu-dollar h6{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    margin: 8px 0;
+}
+.box-menu-dollar{
+    width: 310px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-menu-dollar i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffbe33;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.menu-product-details-button{
+    width: 1140px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.menu-product-details-button button{
+    width: 188px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffbe33;
+    border: none;
+    border-radius: 45px;
+    font-family: "open sans", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.menu-product-details-button button:hover{
+    background-color: #db9a0e;
+}
+
+/* we are feane */
+.we-are-feane{
+    width: 100%;
+    height: 788px;
+    display: flex;
+    justify-content: center;
+    background-color: #222831;
+    padding: 90px 0;
+}
+.feane-left-right-parent{
+    display: flex;
+    width: 1170px;
+    height: 607px;
+}
+.we-feane-left-image-container{
+    width: 585px;
+    height: 607px;
+    text-align: center;
+}
+.we-feane-left-image-container img{
+    width: 445px;
+    height: 607px;
+}
+.we-feane-right-content-container{
+    width: 585px;
+    height: 607px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    gap: 20px;
+    padding: 0 15px;
+}
+.we-feane-right-content-container h2{
+    font-family: "dancing script", cursive;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.we-feane-right-content-container p{
+    width: 555px;
+    height: 120px;
+    font-family: "open sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.we-feane-right-content-container button{
+    width: 171px;
+    height: 44px;
+    margin-top: 10px;
+    background-color: #ffbe33;
+    border: none;
+    border-radius: 45px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 1rem;
+}
+.we-feane-right-content-container button:hover{
+    background-color: #db9a0e;
+}
+
+/* book-a-table */
+.book-a-table{
+    width: 100%;
+    height: 687px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0;
+}
+.book-table-parent-container{
+    width: 1170px;
+    height: 507px;
+    display: flex;
+    justify-content: space-between;
+}
+.book-table-heading{
+    width: 1140px;
+    height: 48px;
+    display: flex;
+    margin-bottom: 25px;
+    font-family: "dancing script", cursive;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    /* color: #222831; */
+}
+.book-table-left-form{
+    width: 555px;
+    height: 434px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.book-table-left-form input{
+    width: 555px;
+    height: 50px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    padding: 6px 12px 6px 25px;
+    font-family: "open sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #222831;
+}
+
+input[type=date] {
+    color: #222831;
+}
+
+.book-table-left-form button{
+    width: 198px;
+    height: 44px;
+    background-color: #ffbe33;
+    border: none;
+    border-radius: 45px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+.book-table-left-form button:hover{
+    background-color: #db9a0e;
+
+}
+.book-table-right-map{
+    padding: 0 15px;
+}
+.book-table-right-map img{
+    width: 555px;
+    height: 345px;
+    border-radius: 10px;
+}
+
+/* customers feedback */
+.customers-feedback{
+    width: 100%;
+    height: 585px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.what-says-our-customers-heading h2{
+    width: 1170px;
+    height: 48px;
+    font-family: "dancing script", cursive;
+    font-size: 2.5rem;
+    color: #0c0c0c;
+    text-align: center;
+    text-transform: capitalize;
+}
+.customers-reviews-parent-container{
+    width: 1170px;
+    height: 346px;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.customers-left-right-review{
+    width: 555px;
+    height: 181px;
+    display: flex;
+    flex-direction: column;
+    background-color: #222831;
+    border-radius: 5px;
+    font-family: "open sans", sans-serif;
+    color: #fff;
+    padding: 25px 25px 15px 25px;
+}
+.customers-left-right-review p{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.customers-left-right-review h5{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.moana-michell img,
+.mike-hamell img{
+    width: 115px;
+    height: 115px;
+    margin-top: 30px;
+    border: 5px solid #ffbe33;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.left-right-icons{
+    width: 1170px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.left-right-icons i{
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffbe33;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.1rem;
+}
+
+/* footer-section */
+.footer-section{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222831;
+    padding: 75px 0px 40px;
+}
+.footer-detail-row{
+    width: 1170px;
+    height: 220px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center; 
+}
+/* .footer-contact-us-cont p:hover{ */
+    /* background-color: #db9a0e; */
+/* } */
+.same-class{
+    width: 360px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border: 1px solid white; */
+    color: #fff;
+    text-align: center;
+}
+.same-class h4, h2{
+    font-family: "dancing script", cursive;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.same-class p{
+    font-family: "open sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    /* text-transform: capitalize; */
+}
+.same-class h4{
+    /* border: 1px solid green; */
+    font-size: 1.8rem;
+}
+.footer-contact-us-cont i{
+    margin-right: 10px;
+    font-size: 0.85rem;
+}
+.footer-contact-us-cont i:hover{
+    color: #db9a0e;
+}
+.footer-contact-us-cont p:hover{
+    color:#db9a0e;
+    cursor: pointer;
+}
+.footer-feane-container h2{
+    width: 360px;
+    height: 50px;
+    /* border: 1px solid yellow; */
+    font-weight: bold;
+    font-size: 2.7rem;
+    cursor: pointer;
+}
+.footer-feane-container p{
+    margin-bottom: 5px;
+}
+.footer-feane-social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.footer-feane-social-icons i{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #222831;
+}
+.footer-feane-social-icons i:hover{
+    color: #db9a0e;
+}
+/* footer-copyright-section */
+.footer-copyright-section{
+    width: 1140px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+.footer-copyright-section p{
+    font-family: "open sans", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+}

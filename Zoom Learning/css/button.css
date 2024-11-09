@@ -1,0 +1,41 @@
+.double-border button{
+    width: 200px;
+    height: 60px;
+    margin-left: 100px;
+    background-color: orange;
+    border: 5px double white;
+    border-radius: 20px 0px 20px 0px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.double-border button:hover{
+    box-shadow: 1px 1px 20px black;
+}
+
+/* DIFFERENCE BETWEEN BOX-SHADOW AND DROP-SHADOW */
+
+.shadow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+    width: 800px;
+    height: 400px;
+    background-color: rgb(48, 48, 48);
+}
+.box-shadow img{
+    width: 250px;
+    height: 150px;
+    box-shadow: 1px 1px 20px yellow;
+}
+/* .box-shadow img:hover{
+    box-shadow: 1px 1px 20px yellow;
+} */
+
+.drop-shadow img{
+    width: 250px;
+    height: 300px;
+    filter: drop-shadow(1px 1px 10px yellow);
+}

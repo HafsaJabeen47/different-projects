@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="112px" height="88px" viewBox="0 0 112 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>sidebar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sidebar" fill="#00BCD8">
+            <path d="M0,4.00984669 C0,1.79526951 1.78186632,0 4.00263463,0 L107.997365,0 C110.207959,0 112,1.79771022 112,4.00984669 L112,83.9901533 C112,86.2047305 110.218134,88 107.997365,88 L4.00263463,88 C1.79204057,88 0,86.2022898 0,83.9901533 L0,4.00984669 Z M4,4.99701481 C4,4.44637873 4.44736519,4 4.99815369,4 L34,4 L34,84 L4.99815369,84 C4.44688863,84 4,83.550093 4,83.0029852 L4,4.99701481 Z M36,4 L107.009586,4 C107.556576,4 108,4.44990703 108,4.99701481 L108,83.0029852 C108,83.5536213 107.558884,84 107.009586,84 L36,84 L36,4 Z" id="Combined-Shape"></path>
+            <path d="M46,16 L98,16 L98,17 L46,17 L46,16 Z M46,21 L98,21 L98,22 L46,22 L46,21 Z M46,26 L98,26 L98,27 L46,27 L46,26 Z M46,31 L98,31 L98,32 L46,32 L46,31 Z M46,36 L98,36 L98,37 L46,37 L46,36 Z M46,41 L86.2264151,41 L86.2264151,42 L46,42 L46,41 Z" id="Combined-Shape" opacity="0.6"></path>
+            <path d="M10,74 L22,74 L22,75 L10,75 L10,74 Z M10,70 L28,70 L28,71 L10,71 L10,70 Z" id="Combined-Shape" opacity="0.6"></path>
+        </g>
+    </g>
+</svg>

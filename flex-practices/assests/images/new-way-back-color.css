@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+.back-color{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: skyblue;
+    margin-top: 200px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 1152px;
+    height: 500px;
+    background-color: pink;
+    margin-top: -100px;
+    align-items: center;
+    justify-content: center;
+}
+.box h3{
+    font-size: 60px;
+}

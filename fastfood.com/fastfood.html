@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Menu Practice</title>
+
+    <link rel="stylesheet" href="./assets/css/fastfood.css">
+    <link rel="stylesheet" href="./assets/css/fast-media.css">
+
+    <!-- <link rel="stylesheet" href="./assets/css/fastfood-media.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/css/responsive.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/css/fastfood-media-queries.css"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- nav-section -->
+    <div class="nav">
+        <div class="logo">
+            <p>feane</p>
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+            <li><a class="active">home</a></li>
+            <li><a href="#our-menu-menu">menu</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">booktable</a></li>
+            <li><a href="">feedback</a></li>
+        </ul>
+        <div class="nav-icon">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="nav-btn">
+            <button>order online</button>
+        </div>
+    </div>
+    <!-- hero-section -->
+    <div class="bg-hero-section">
+
+        <div class="content-hero-section">
+            <h1>fast food restaurant</h1>
+        <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
+        <button>order now</button>
+        </div>
+    </div>
+    <!-- body-content-section -->
+    <div class="body-content-section">
+        <div class="two-box-container">
+            <div class="two-box-image-container">
+                <img src="./assets/restaurant-imgs/tasty-thursday.jpg" alt="tasty-thursday.jpg">
+            </div>
+            <div class="two-box-content-container">
+                <h5>tasty thursdays</h5>
+                <p><span>20%</span>off</p>
+                <button>order now<i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+        </div>
+        <div class="two-box-container">
+            <div class="two-box-image-container">
+                <img src="./assets/restaurant-imgs/pizza-days.jpg" alt="pizza-days.jpg">
+            </div>
+            <div class="two-box-content-container">
+                <h5>pizza days</h5>
+                <p><span>15%</span>off</p>
+                <button>order now<i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+    </div>
+    <!-- our-menu-section -->
+    <div class="our-menu-section">
+        <div class="our-menu">
+            <h2 id="our-menu-menu">our menu</h2>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a class="active" href="">all</a></li>
+                <li><a href="">burger</a></li>
+                <li><a href="">pizza</a></li>
+                <li><a href="">pasta</a></li>
+                <li><a href="">fries</a></li>
+            </ul>
+        </div>
+        <div class="menu-product-details">
+            <div class="menu-box-product-details">
+                <div class="box-menu">
+                    <div class="box-menu-image">
+                        <img id="A-152-144" src="./assets/restaurant-imgs/our-menu-1.png" alt="our-menu-1.png">
+                    </div>
+                    <div class="box-menu-content">
+                        <h5>delicious pizza</h5>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="box-menu-dollar">
+                            <h6>$20</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-menu">
+                    <div id="burger-1" class="box-menu-image">
+                        <img id="B-196-144" src="./assets/restaurant-imgs/our-menu-2.png" alt="our-menu-2.png">
+                    </div>
+                    <div id="br-1" class="box-menu-content">
+                        <h5>delicious burger</h5>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="box-menu-dollar">
+                            <h6>$15</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-menu">
+                    <div class="box-menu-image">
+                        <img id="C-145-145" src="./assets/restaurant-imgs/our-menu-3.png" alt="our-menu-3.png">
+                    </div>
+                    <div class="box-menu-content">
+                        <h5>delicious pizza</h5>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="box-menu-dollar">
+                            <h6>$17</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-menu">
+                    <div class="box-menu-image">
+                        <img id="D-256-144" src="./assets/restaurant-imgs/our-menu-4.png" alt="our-menu-4.png">
+                    </div>
+                    <div class="box-menu-content">
+                        <h5>delicious pasta</h5>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="box-menu-dollar">
+                            <h6>$18</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-menu">
+                    <div class="box-menu-image">
+                        <img id="E-218-144" src="./assets/restaurant-imgs/our-menu-5.png" alt="our-menu-5.png">
+                    </div>
+                    <div class="box-menu-content">
+                        <h5>delicious fries</h5>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="box-menu-dollar">
+                            <h6>$10</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-menu">
+                    <div class="box-menu-image">
+                        <img id="F-145-145" src="./assets/restaurant-imgs/our-menu-6.png" alt="our-menu-6.png">
+                    </div>
+                    <div class="box-menu-content">
+                        <h5>delicious pizza</h5>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="box-menu-dollar">
+                            <h6>$15</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-menu">
+                    <div class="box-menu-image">
+                        <img id="G-175-144" src="./assets/restaurant-imgs/our-menu-7.png" alt="our-menu-7.png">
+                    </div>
+                    <div id="br-2" class="box-menu-content">
+                        <h5>delicious burger</h5>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="box-menu-dollar">
+                            <h6>$12</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-menu">
+                    <div class="box-menu-image">
+                        <img id="H-177-144" src="./assets/restaurant-imgs/our-menu-8.png" alt="our-menu-8.png">
+                    </div>
+                    <div id="br-3" class="box-menu-content">
+                        <h5>delicious burger</h5>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="box-menu-dollar">
+                            <h6>$14</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-menu">
+                    <div class="box-menu-image">
+                         <img id="I-180-144" src="./assets/restaurant-imgs/our-menu-9.png" alt="our-menu-9.png">
+                    </div>
+                    <div class="box-menu-content">
+                        <h5>delicious pasta</h5>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="box-menu-dollar">
+                            <h6>$10</h6>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-product-details-button">
+                <button>view more</button>
+            </div>
+        </div> 
+    </div>
+    <!-- we are feane -->
+    <div class="we-are-feane">
+        <div class="feane-left-right-parent">
+            <div class="we-feane-left-image-container">
+                <img src="./assets/restaurant-imgs/we-are-feane.png" alt="we-are-feane.png">
+            </div>
+            <div class="we-feane-right-content-container">
+                <h2>we are feane</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
+                <button>read more</button>
+            </div>
+        </div>
+    </div>
+    <!-- book-a-table -->
+    <div class="book-a-table">
+        <div class="book-table-heading">
+            <h2>book a table</h2>
+        </div>
+        <div class="book-table-parent-container">
+            <div class="book-table-left-form">
+                <input type="text" placeholder="your name">
+                <input type="tel" placeholder="phone number">
+                <input type="email" placeholder="your email">
+                <input type="text" placeholder="how many persons?">
+                <input type="date">
+                <div class="book-table-button">
+                    <button>book now</button>
+                </div>
+            </div>
+            <div class="book-table-right-map">
+                <img src="./assets/restaurant-imgs/book-table-map.png" alt="book-table-map.png">
+            </div>
+        </div>
+    </div>
+    <!-- customers feedback -->
+    <div class="customers-feedback">
+        <div class="what-says-our-customers-heading">
+            <h2>what says our customers</h2>
+            <div class="customers-reviews-parent-container">
+                <div class="customers-left-right-review">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deserunt sunt veniam! Recusandae aliquam dicta odit, debitisamsi veniam</p>
+                    <h5>moana michell</h5>
+                    <p>magna aliqua</p>
+                    <div class="moana-michell">
+                        <img src="./assets/restaurant-imgs/moana-michell.jpg" alt="moana-michell.jpg">
+                    </div>
+                </div>
+                <div class="customers-left-right-review">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deserunt sunt veniam! Recusandae aliquam dicta odit, debitisamsi veniam</p>
+                    <h5>mike hamell</h5>
+                    <p>magna aliqua</p>
+                    <div class="mike-hamell">
+                        <img src="./assets/restaurant-imgs/mike-hamell.jpg" alt="mike-hamell.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="left-right-icons">
+            <i class="fa-solid fa-angle-left"></i>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+    </div>
+    <!-- footer-section -->
+    <div class="footer-section">
+        <div class="footer-detail-row">
+            <div class="footer-contact-us-cont same-class">
+                <h4>Contact Us</h4>
+                <p><i class="fa-solid fa-location-dot"></i>Location</p>
+                <p><i class="fa-solid fa-phone"></i>Call +01 1234567890</p>
+                <p><i class="fa-solid fa-envelope"></i>feane@gmail.com</p>
+            </div>
+            <div class="footer-feane-container same-class">
+                <h2>feane</h2>
+                <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with</p>
+                <div class="footer-feane-social-icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                </div>
+            </div>
+            <div class="footer-opening-hours same-class">
+                <h4>opening hours</h4>
+                <p>Everyday</p>
+                <p>10:00Am-10:00Pm</p>
+            </div>
+        </div>
+        <!-- footer-section-copyright -->
+        <div class="footer-copyright-section">
+            <p>© 2023 All Rights Reserved By Free Html Templates</p>
+            <p>© Distributed By ThemeWagon</p>
+        </div>
+    </div>
+</body>
+</html>

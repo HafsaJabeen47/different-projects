@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./../images/scene.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #5a6b51;
+    justify-content: space-between;
+    padding: 0 70px;
+    border-bottom: 2px solid #838d8f;
+    
+}
+.nav-logo{
+    color: white;
+    line-height: 50px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    /* margin-left: 100px; */
+}
+/* ye nechy waly me > is sign k bger b border dy skty hen agr sary ul li ko left border dena ho to. */
+
+/* agr sirf main main ul li ko border dena ho toye sign > lgaty hen. */
+.navbar ul li{
+    width: 170px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    font-size: 1.1rem;
+    border-left: 1px solid #9db88f;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    display: block;
+}
+.navbar ul li a:hover{
+    background-color: #9db88f;
+}
+.navbar ul ul{
+    display: flex;
+    flex-direction: column;
+    background-color: #5a6b51;
+    display: none;
+    position: absolute;
+}
+.navbar ul ul ul{
+    /* yahan pe width wali value b dy dety hen..like 170px width di the and 100%se b same result ay ga */
+    left: 100%;
+    top: 0;
+}
+.navbar ul li:hover > .sub-menu ul{
+    display: flex;
+    /* flex-direction: column; */
+    /* width: 170px;  */
+}
+.sub-menu ul ul li{
+    display: none;
+}
+.sub-menu ul li:hover > ul li{
+    display: flex;
+    flex-direction: column;
+    /* width: 170px; */
+}
+.sub-menu ul ul ul li a{
+    display: none;
+}
+.sub-menu ul ul li:hover > ul li a{
+    display: flex;
+    flex-direction: column;
+}
+.fa-caret-right{
+    margin-left: 10px;
+}
+
+.fa-caret-down{
+    margin-left: 5px;
+}
+
+button{
+    width: 110px;
+    border-radius: 30px;
+    border: none;
+    margin: 5px 0;
+    color: #5a6b51;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #9db88f;
+    color: #fff;
+}
+button p{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    
+}

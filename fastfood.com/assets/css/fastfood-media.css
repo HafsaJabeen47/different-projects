@@ -1,0 +1,437 @@
+/* max-width: 1490px         (done)      */
+@media screen and (max-width: 1490px){
+    .content-hero-section{
+        margin-left: 150px;
+    }
+}
+
+
+
+
+/* max-width: 1295px           (done)      */
+@media screen and (max-width: 1295px){
+    .content-hero-section{
+        margin-left: 139px;
+    }
+}
+
+
+
+
+
+
+
+/* max-width:1200px              (done)      */
+@media screen and (max-width: 1200px){
+    .nav-icon{
+        display: none;
+    }
+    .nav{
+        padding: 0 0;
+        justify-content: space-around;
+    }
+    /* hero-section */
+    .content-hero-section{
+        margin-left: 40px;
+    }
+    /* body-content-section */
+    .two-box-container{
+        width: 450px;
+        height: 215px;
+    }
+    /* our-menu-section */
+    .our-menu{
+        width: 930px;
+    }
+    .menu-bar{
+        width: 930px;
+    }
+    .our-menu-section{
+        height: 1800px;
+    }
+    .menu-product-details{
+        width: 960px;
+    }
+    .menu-box-product-details{
+       /* gap: 25px; */
+    }
+    .box-menu{
+        width: 300px;
+        height: 466px;
+        margin: 5px 0;
+    }
+    .box-menu-image{
+        width: 300px;
+    }
+    .box-menu-dollar{
+        width: 240px;
+    }
+    .box-menu-content{
+        width: 300px;
+    }
+    .menu-product-details-button{
+        width: 960px;
+    }
+    /* we-are-feane */
+    .feane-left-right-parent{
+        width: 960px;
+    }
+    .we-feane-right-content-container{
+        width: 485px;
+        gap: 15px;
+    }
+    .we-feane-right-content-container p{
+        width: 450px;
+        height: 144px;
+    }
+    /* book-a-table */
+    .book-table-heading{
+        width: 930px;
+    }
+    .book-table-parent-container{
+        width: 960px;
+        justify-content: center;
+        gap: 30px;
+    }
+    .book-table-left-form{
+        width: 450px;
+    }
+    .book-table-right-map img{
+        width: 450px;
+        height: 345px;
+    }
+    .book-table-left-form input{
+    width: 450px;
+    }
+    /* customers-feedback */
+    .what-says-our-customers-heading{
+        width: 960px;
+    }
+    .what-says-our-customers-heading h2{
+        width: 960px;
+    }
+    .customers-reviews-parent-container{
+        width: 960px;
+    }
+    .left-right-icons{
+        width: 930px;
+    }
+}
+
+
+
+
+
+/* max-width: 992px */
+@media screen and (max-width: 992px){
+    /* menu-section */
+    .our-menu-section{
+        width: 960px;
+    }
+    .our-menu{
+        width: 960px;
+    }
+    .menu-bar{
+        width: 960px;
+    }
+    .menu-box-product-details{
+        gap: 10px;
+        padding-left: 33px;
+    }
+    /* footer-section */
+    .footer-detail-row{
+        width: 960px;
+    }
+    .same-class{
+        width: 320px;
+    }
+    .footer-copyright-section{
+        width: 960px;
+    }
+}
+
+
+
+
+/* max-width: 768px */
+@media screen and (max-width: 768px){
+    /* nav-section */
+    .nav{
+        width: 690px;
+    }
+    /* hero-section */
+    .bg-hero-section{
+        width: 690px;
+    }
+    /* body-content-section */
+    .body-content-section{
+        width: 690px;
+        height: 550px;
+    }
+    .two-box-container{
+        width: 330px;
+        height: 370px;
+        flex-direction: column;
+    }
+    /* our-menu-section */
+    .our-menu-section{
+        width: 690px;
+        height: 2720px;
+    }
+    .our-menu{
+        width: 690px;
+    }
+    .menu-bar{
+        width: 690px;
+    }
+    .menu-product-details{
+        width: 700px;
+    }
+    .menu-product-details-button{
+        width: 690px;
+        margin-top: 25px;
+    }
+    .menu-product-details-button{
+        padding: 10px 0;
+    }
+    .menu-box-product-details{
+        gap: 10px;
+        padding-left: 0px;
+    }
+    .box-menu{
+        width: 330px;
+    }
+    .we-feane-left-image-container{
+        width: 330px;
+    }
+    .box-menu-image{
+        width: 330px;
+    }
+    /* we-are-feane */
+    .we-are-feane{
+        width: 690px;
+    }
+    .feane-left-right-parent{
+        width: 690px;
+    }
+    .we-feane-left-image-container img{
+        width: 330px;
+        height: 450px;
+    }
+    .we-feane-right-content-container{
+        width: 330px;
+        height: 354px;
+    }
+    .we-feane-right-content-container p{
+        width: 330px;
+    }
+    /* book-a-table */
+    .book-a-table{
+       width: 690px; 
+    }
+    .book-table-heading{
+        width: 690px;
+    }
+    .book-table-parent-container{
+        width: 690px;
+    }
+    .book-table-left-form{
+        width: 330px;
+        padding: 0 10px;
+    }
+    .book-table-left-form input{
+        width: 330px;
+    }
+    .book-table-right-map{
+        width: 330px;
+        padding: 0 10px;
+    }
+    .book-table-right-map img{
+        width: 330px;
+    }
+    /* customers-feedback */
+    .customers-feedback{
+        width: 690px;
+    }
+    .what-says-our-customers-heading{
+        width: 690px;
+    }
+    .what-says-our-customers-heading h2{
+        width: 690px;
+    }
+    .customers-reviews-parent-container{
+        width: 690px;
+    }
+    .customers-left-right-review{
+        width: 360px;
+        height: 226px;
+    }
+    .left-right-icons{
+        width: 690px;
+    }
+    /* footer-section */
+    .footer-section{
+        width: 690px;
+    }
+    .footer-detail-row{
+        width: 690px;
+        height: 365px;
+    }
+    .footer-copyright-section{
+        width: 690px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* max-width:991px */
+/* @media screen and (max-width: 991px){
+    .two-box-container{
+        width: 330px;
+        height: 370px;
+    }
+} */
+
+
+
+
+
+
+
+/* max-width:850px */
+ @media screen and (max-width: 850px){
+    .nav ul{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 60px;
+        left: -100%;
+        background-color: #30363d;
+        display: block;
+        line-height: 50px;
+        text-align: center;
+        transition: all 0.7s ease;
+    }
+    #click:checked ~ ul{
+        left: 0;
+    }
+    #click:checked ~ .menu-btn i:before{
+        content: "\f00d";
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav{
+        padding: 0 50px;
+        justify-content: space-between;
+    }
+    .nav .menu-btn i{
+        display: block;
+    }
+    .bg-hero-section{
+        height: 550px;
+    }
+    .content-hero-section{
+        margin-left: 50px;
+    }
+    .content-hero-section h1{
+        margin-top: 100px;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+/* max-width:650px */
+/* @media screen and (max-width: 650px){
+    .content-hero-section{
+        width: 480px;
+    }
+    .content-hero-section h1{
+        margin-top: 100px;
+    }
+} */
+
+
+
+
+
+
+
+/* max-width:550px */
+/* @media screen and (max-width: 550px){
+    .content-hero-section{
+        width: 350px;
+        height: 600px;
+    }
+    .bg-hero-section{
+        height: 680px;
+    }
+}  */
+
+
+
+
+
+
+
+/* max-width:430px */
+    /* @media screen and (max-width: 430px){
+    .content-hero-section{
+        width: 280px;
+    }
+    .bg-hero-section{
+        height: 790px;
+    }  
+} */
+
+
+
+
+
+
+/* max-width:350px */
+/* @media screen and (max-width: 350px){
+    .content-hero-section{
+        width: 250px;
+        height: 600px;
+        padding-right: 20px;
+    }
+} */
+
+
+
+
+
+/* max-width:295px */
+/* @media screen and (max-width: 295px){
+    .nav{
+        padding: 0 10px;
+    }
+    .content-hero-section{
+        width: 150px;
+        height: 800px;
+        padding: 0 10px;
+    }
+    .content-hero-section h1{
+        font-size: 2.9rem;
+        font-weight: bold;
+    }
+    .bg-hero-section{
+        height: 890px;
+    }
+} */

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./assests/css/form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Vaidation</title>
+</head>
+<body>
+    <div class="form-p-cont">
+        <div class="form-box">
+            <form>
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your name" id="contact-name">
+                    <span id="name-error"></span>
+                </div>
+
+                <div class="input-group">
+                    <label>Phone No.</label>
+                    <input type="tel" placeholder="123 456 7890" id="phone-no">
+                    <span id="phone-error"></span>
+                </div>
+
+                <div class="input-group">
+                    <label>Email Id</label>
+                    <input type="email" placeholder="Enter Email" id="email">
+                    <span id="email-error"></span>
+                </div>
+
+                <div class="input-group">
+                    <label>Your Message</label>
+                    <textarea id="text-area" placeholder="Enter your message"></textarea>
+                    <span id="message-error"></span>
+                </div>
+                <div class="btn-p-con">
+                    <button id="sub-btn" onclick="return validateName()">Submit</button>
+                    <span id="submit-error"></span>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="./assests/js/form.js"></script>
+</body>
+</html>

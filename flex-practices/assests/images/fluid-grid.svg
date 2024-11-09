@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="112px" height="88px" viewBox="0 0 112 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>fluid</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fluid" fill="#9F06B4">
+            <path d="M0,4.00984669 C0,1.79526951 1.78186632,0 4.00263463,0 L107.997365,0 C110.207959,0 112,1.79771022 112,4.00984669 L112,83.9901533 C112,86.2047305 110.218134,88 107.997365,88 L4.00263463,88 C1.79204057,88 0,86.2022898 0,83.9901533 L0,4.00984669 Z M4,5.00324215 C4,4.44916681 4.45221209,4 5.00071311,4 L72,4 L72,43 L4,43 L4,5.00324215 Z M74,4 L107.000858,4 C107.552669,4 108,4.43798828 108,5.00324215 L108,43 L74,43 L74,4 Z M4,45 L37,45 L37,84 L5.00564303,84 C4.45024172,84 4,83.5620117 4,82.9967579 L4,45 Z M74,45 L108,45 L108,82.9967579 C108,83.5508332 107.545076,84 107.000858,84 L74,84 L74,45 Z M39,45 L72,45 L72,84 L39,84 L39,45 Z" id="Combined-Shape"></path>
+            <path d="M10,10 L56,10 L56,11 L10,11 L10,10 Z M10,15 L56,15 L56,16 L10,16 L10,15 Z M10,20 L45,20 L45,21 L10,21 L10,20 Z" id="Combined-Shape" opacity="0.6"></path>
+        </g>
+    </g>
+</svg>

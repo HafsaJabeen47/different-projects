@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+.body-back-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 520px;
+    background-color: #fff8e0;
+    margin-top: 200px;
+    align-items: center;
+}
+.main-layout-container{
+    display: flex;
+    flex-direction: column;
+    width: 872px;
+    height: 231px;
+    background-color: #ffc200;
+    margin-top: -110px;
+    border-radius: 5px;
+    gap: 70px;
+}
+.child-layout-box-one{
+    display: flex;
+    flex-direction: column;
+    width: 872px;
+    height: 231px;
+    padding: 30px;
+    gap: 15px;
+}
+.small-containers-line-1{
+    display: flex;
+    gap: 15px;
+}
+.small-containers-line-1 .child-portions{
+    display: flex;
+    width: 396px;
+    height: 46px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.small-containers-line-2{
+    display: flex;
+    gap: 15px;
+}
+.small-containers-line-2 .child-portions{
+    display: flex;
+    width: 259px;
+    height: 46px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+.small-containers-line-3{
+    display: flex;
+    gap: 15px;
+}
+.small-containers-line-3 .child-portions{
+    display: flex;
+    width: 190px;
+    height: 46px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.child-layout-box-one p{
+    font-family: 'Circular Medium', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffc200;
+}
+/* box 2 part is started from here. */
+
+.child-layout-box-two{
+    display: flex;
+    flex-direction: column;
+    width: 872px;
+    height: 231pxpx;
+    background-color:#ffc200;
+    border-radius: 5px;
+    padding: 30px;
+    gap: 15px;
+}
+.smaall-container-line-box-2{
+    display: flex;
+    gap: 15px;
+}
+.smaall-container-line-box-2 .child-portions-3{
+    display: flex;
+    width: 190px;
+    height: 46px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+#fifty{
+    /* display: flex; */
+    width: 396px;
+    height: 46px;
+}
+.smaall-container-line-box-2{
+    display: flex;
+    gap: 15px;
+}
+.smaall-container-line-box-2 .child-portions-2{
+    display: flex;
+    width: 536px;
+    height: 46px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+#thirty-three{
+    /* display: flex; */
+    width: 256px;
+    height: 46px;
+    background-color: white;
+    border-radius: 5px;
+    gap: 15px;
+}
+.smaall-container-line-box-2 .child-last-portion-3{
+    display: flex;
+    width: 330px;
+    height: 46px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+#twenty-five{
+    width: 190px;
+    height: 46px;
+    background-color: white;
+    border-radius: 5px;
+}
+#last{
+    /* display: flex; */
+
+}
+.child-layout-box-two p{
+    font-family: 'Circular Medium', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffc200;
+}
+
