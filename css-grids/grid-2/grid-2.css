@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #d3d2d3;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+/* class are given for bg colours */
+.one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #fa5650;
+}
+
+.two{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #f8955a;
+}
+
+.three{
+    background-color: #049c7f;
+}
+
+.four{
+    background-color: #1bb896;
+}
