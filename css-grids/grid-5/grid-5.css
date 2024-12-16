@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #d3d2d3;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+    
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+/* class are given for bg colours */
+.one{
+    background-color: #049c7f;
+}
+
+.two{
+    background-color: #ff7555;
+}
+
+.three{
+    background-color: #1bb896;
+}
+
+.four{
+    background-color: #fa5650;
+}
+
+.five{
+    background-color: #30d5b1;
+}
+.six{
+    background-color: #ff7555;
+}
+.seven{
+    background-color: #f8955a;
+}
+.eight{
+    background-color: #049c7f;
+}
+.nine{
+    background-color: #ff7555;
+}
+.ten{
+    background-color: #1bb896;
+}
+.eleven{
+    background-color: #f8955a;
+}
+.twelve{
+    background-color: #fa5650;
+}
+.thirteen{
+    background-color: #049c7f;
+}
+.fourteen{
+    background-color: #fa5650;
+}
+.fifteen{
+    background-color: #30d5b1;
+}
+.sixteen{
+    background-color: #ff7555;
+}
+.seventeen{
+    background-color: #049c7f;
+}
+.eighteen{
+    background-color: #30d5b1;
+}
+
