@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #d3d2d3;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 16px;
+    
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+/* class are given for bg colours */
+.one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #fa5650;
+}
+
+.two{
+    background-color: #049c7f;
+}
+
+.three{
+    background-color: #f8955a;
+}
+
+.four{
+    background-color: #ff7555;
+}
+
+.five{
+    background-color: #049c7f;
+}
+.six{
+    background-color: #1bb896;
+}
+
+.seven{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: #ff7555;
+}
+.eight{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #30d5b1;
+}
+.nine{
+    background-color: #fa5650;
+}
+.ten{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #049c7f;
+}
+.eleven{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #30d5b1;
+}
+.twelve{
+    background-color: #ff7555;
+}
