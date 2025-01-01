@@ -3,3 +3,131 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #d3d2d3;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: #9bce0b;
+    padding: 5px 0;
+    color: white;
+}
+
+.one{
+    grid-column-start: 1;
+    grid-column-end: 13 ;
+    background-color: #936866;
+}
+
+.two{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #ad1936;
+}
+
+.three{
+    grid-column-start: 7;
+    grid-column-end: 13;
+    background-color: cadetblue;
+}
+.four{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #000;
+}
+.five{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    background-color: #936866;
+}
+.six{
+    grid-column-start: 9;
+    grid-column-end: 13;
+    background-color: rgb(129, 111, 224);
+}
+.seven{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #936866;
+}
+.eight{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    background-color: cadetblue;
+}
+.nine{
+    grid-column-start: 7;
+    grid-column-end: 10;
+    background-color: #000;
+}
+.ten{
+    grid-column-start: 10;
+    grid-column-end: 13;
+    background-color: #936866;
+}
+.eleven{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #000;
+}
+.twelve{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.thirteen{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    background-color: rgb(3, 55, 57);
+}
+.fourteen{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    background-color: cadetblue;
+}
+.fifteen{
+    grid-column-start: 9;
+    grid-column-end: 11;
+    background-color: #ad1936;
+}
+.sixteen{
+    grid-column-start: 11;
+    grid-column-end: 13;
+    background-color: #000;
+}
+.seventeen{
+    background-color: cadetblue;
+}
+.nineteen{
+    background-color: rgb(3, 55, 57);
+}
+.twenty-two{
+    background-color: cadetblue;
+}
+.twenty-three{
+    background-color: #936866;
+}
+.twenty-five{
+    background-color: rgb(3, 55, 57);
+}
+.twenty-seven{
+    background-color: cadetblue;
+}
+.twenty-eight{
+    background-color: #ad1936;
+}
+.twenty{
+    background-color: #000;
+}
+
