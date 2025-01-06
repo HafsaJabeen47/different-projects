@@ -18,13 +18,10 @@
     align-items: center;
 }
 .one{
-    height: 300px;
     background-color: #d30557;
     grid-column-start: 1;
     grid-column-end: 2;
 
-    grid-row-start: 1;
-    grid-row-end: 2;
 }
 .two{
     background-color: #00aba5;
@@ -38,7 +35,7 @@
 }
 .four{
     background-color: #2196d9;
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 3;
 }
 .five{
@@ -51,9 +48,11 @@
 
     grid-row-start: 2;
     grid-row-end: 4;
+
+   
 }
 .seven{
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 3;
     background-color: #ea6700;
 }
