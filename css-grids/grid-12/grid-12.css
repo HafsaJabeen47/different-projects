@@ -16,6 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 .one{
     background-color: #d30557;
@@ -48,8 +49,6 @@
 
     grid-row-start: 2;
     grid-row-end: 4;
-
-   
 }
 .seven{
     grid-column-start: 1;
