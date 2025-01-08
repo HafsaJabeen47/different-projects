@@ -17,6 +17,8 @@
     margin: 0 auto;
 }
 
+
+/* one */
 .container{
     margin-top: 30px;
     display: flex;
@@ -76,6 +78,43 @@
     letter-spacing: 0.5px;
 }
 
+
+/* two */
+.container-two{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.cards-two{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    margin: 20px;
+}
+
+.cards-two h4{
+    text-align: center;
+}
+
+.cards-two .card{
+    min-width: 244px;
+    min-height: 213px;
+    padding: 24px 24px 20px 24px;
+}
+
+
+/* three */
+.container-three{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
 
 
 
