@@ -59,3 +59,19 @@
 .eight{
     background-color: #ff8961;
 }
+.nine{
+    background-color: pink;
+    grid-column-start: 5;
+
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+}
+.ten{
+    background-color: skyblue;
+
+    grid-column-start: 6;
+
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
