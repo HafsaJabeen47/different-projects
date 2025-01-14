@@ -75,3 +75,13 @@
     grid-row-start: 1;
     grid-row-end: 4;
 }
+
+.eleven{
+    background-color: lightcoral;
+
+    grid-column-start: 7;
+
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+}
